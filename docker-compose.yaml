@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  ubuntu:
+    image: ubuntu:18.04
+    environment:
+      HISTFILE: /root/hist/.bash_history
+    volumes:
+      - bashhistory:/root/hist #soporte para mantener el historial de bash
+      - ./curso:/curso
+    working_dir: /curso
+    tty: true
+    stdin_open: true
+
+volumes:
+  bashhistory:
