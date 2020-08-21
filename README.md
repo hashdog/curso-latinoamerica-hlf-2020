@@ -8,7 +8,15 @@ Bienvenidos al curso de Hyperledger Fabric LatinoAmerica 2020, este repositorio 
  
 # Empenzando
 
-Para abrir tu terminal de ubuntu solo tenes que correr el siguiente comando:
+Clonar el proyecto
+
+    git clone https://github.com/hashdog/curso-latinoamerica-hlf-2020.git
+
+Entrar al directorio
+
+    cd curso-latinoamerica-hlf-2020
+
+Ahora solo tenes que correr el siguiente comando:
 
     docker-compose run ubuntu bash
 
