@@ -12,14 +12,14 @@ Para abrir tu terminal de ubuntu solo tenes que correr el siguiente comando:
 
     docker-compose run ubuntu bash
 
-Este comando te va abrir una terminal de ubuntu, apuntando ya a tu directorio `/curso`
+Este comando te va abrir una terminal de ubuntu, apuntando ya a tu directorio `curso`
 
 
 # Beneficios
 
 Usando este docker-compose.yaml te brinda lo siguiente:
 
- - Monta el directorio `/curso` para compartir archivos entre tu local y docker
+ - Monta el directorio `curso` para compartir archivos entre tu local y docker
  - Conserva el historial de los comandos escritos en consola
  - Esta imagen ya trae instalado todo lo necesario para el curso - https://github.com/blockchainempresarial/curso-hyperledger-fabric/blob/master/scripts/prerreq.sh
  - Comparte el docker.sock para poder utilizar docker dentro del contenedor

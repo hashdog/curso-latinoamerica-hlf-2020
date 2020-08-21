@@ -10,9 +10,9 @@ services:
       HISTFILE: /root/hist/.bash_history
     volumes:
       - bashhistory:/root/hist #soporte para mantener el historial de bash
-      - ./curso:/curso
+      - ./curso:/root/curso
       - /var/run/docker.sock:/var/run/docker.sock 
-    working_dir: /curso
+    working_dir: /root/curso
     tty: true
     stdin_open: true
 
